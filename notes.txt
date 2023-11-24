@@ -1,0 +1,400 @@
+Everything is python is object
+Every object contains set of methods.
+
+objects
+----------
+
+
+number
+-------
+number can be integer or decimal or octal or hexa.
+
+val = 10
+
+
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+aname  = 'python'
+bname = "python programming"
+cname = """unix shell scripting"""
+
+
+
+list ( array)
+-----
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+list is defined in [].
+
+alist = [10,20,30,40]
+blis = ["unix","java"]
+
+
+tuple  ( immutable   readonly unchangeable )
+-------
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+tuple is defined in ().
+
+atup = (40,40,30,20)
+
+
+dictionary( hash  hashmap  map  json  associatearray)
+------------
+dictionary is defined in keys and values.
+keys are always unique and can be number or string
+value can be number or string or list or tuple or dictionary or any complex datastructure.
+
+syntax :  object = { key:value , key:value , key:value }
+example:    book = {"chap1":10 ,"chap2":20,"chap3":20}
+
+
+set
+------
+set is unordered collection of unique elements of same type.
+
+
+statements
+-------------
+
+conditional statements
+-if
+-if else
+-if-elif-elif-elif-else
+
+control statements
+----------------
+for
+while
+
+
+Operators
+----------
+
+arithmetic operators :   + - *   % /
+relational operators :   <  >  <=  >=  == !=
+logical operators    :   and or not
+assignment operators ( ++ and -- are not allowed in python)
+val = 10
+val+=1   (or) val = val + 1 
+
+special operators :
+------------------
++
+*
+in
+as
+
+
+functions
+----------
+-builtin functions
+-userdefined functions
+
+
+-builtin functions
+-------------------
+print()
+len()
+range()
+type()
+isinstance()
+str()
+min()
+max()
+sum()
+id()
+help()
+dir()
+int()
+list()
+tuple()
+dict()
+set()
+oct()
+
+
+user defined function | definition | submodule | subroutine | block | function
+--------------------------------------------
+
+- code reusability
+- define the block once and invoke it for multiple times
+
+
+different ways of passing arguments
+--------------------------------
+-fixed arguments
+-default arguments
+-keyword arguments
+-variable length arguments.
+
+file handling
+---------------
+
+
+working with flat files ( log  csv conf  prop  txt  xml json ... )
+----------------------------------------------------
+
+opening the file
+-------------------
+syntax:  object = open(filename,mode)
+example:   fobj = open("customers.txt","r")
+
+
+closing the file
+----------------
+fobj.close()
+
+
+modes:
+r - read mode
+w - write mode
+a - append mode
+
+file read operation
+---------------------
+- reading the file line by line using file object
+- fobj.readlines()
+- fobj.read()
+- using csv library
+- using pandas library
+
+
+
+exception handling
+--------------------
+There are 2 types of errors
+
+- syntax error
+- semantic error
+
+handling the errors that occurs during the runtime is known as exception handling.
+
+try
+except
+else
+finally
+raise
+
+
+
+display all existing databases
+------------------------------
+show databases;
+
+create your own database
+--------------------------
+create database genesys;
+
+access your database
+---------------------
+use genesys;
+
+creating table
+---------------
+create table supermarket(Product varchar(100), Payment_Type varchar(100), Name varchar(100) );
+
+inserting records
+------------------
+insert into supermarket values('product1','visa','carolina');
+insert into supermarket values('product2','mastercard','Rita');
+insert into supermarket values('product3','apex','Ram');
+
+displaying records
+-----------------
+select * from supermarket
+
+
+
+steps:
+--------
+
+step1: establish the connection
+step2: define query
+step3: execute the query
+step4: display output
+step5: close the connection
+
+
+
+#######################################################
+write a progra to read sales.csv and insert all the records to the database.
+- use exception handling
+- add validations
+
+
+#######################################################
+
+write a program to connect to the supermarket table and write the output to the excel file ending with today's timestamp.
+
+output:
+------------
+22_Nov_2023.xlsx
+
+
+
+
+
+
+
+types of programming languages
+--------------------------------
+
+-procedural programming
+-object oriented programming
+
+
+object oriented programming
+-----------------------------
+-code reusability
+-OOPs principles are common across all the languages like c++ java ruby python.
+
+-class
+-object
+-inheritance
+-data hiding
+-escapsulation
+-polymorphism
+  - function overloading
+  - operator overloading
+
+
+class
+---------
+class is blueprint of the model
+Every class contains datamembers(attributes) and memberfunctions(members)
+
+
+object
+------
+object is the instance of the class
+
+self
+----
+self is the instance of the object
+
+
+
+re library
+----------
+-search for patterns
+-replacing
+-match
+-split
+-findall
+
+metacharacter (or) wildcard characters ( common across all the languages )
+--------------------------------------
+^ : matcth at the beginning
+$ : match at the end of string
+* : zero or more occurences of preceding character
++ : one or  more occurences of preceding character
+. : any single character
+? : either zero or one occurence of preceding character
+(): grouping
+[]:one single character
+{}:{min,max} occurences of preceding character
+\d
+\s
+\n
+
+
+
+
+
+
+
+
+
+
+
+
+
+unittest
+pytest
+
+
+
+
+
+
+
+
+
+
+
+step1:
+pip install boto3
+pip install awscli
+
+
+
+
+step2:
+aws configure 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
